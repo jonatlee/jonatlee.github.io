@@ -1,0 +1,36 @@
+.row {
+    margin-top: 80px;
+}
+
+.col-left {
+    margin-left: 3%;
+}
+
+.col-right {
+    margin-right: 3%;
+}
+
+.desc-head {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.desc-text {
+    font-size: 24px;
+}
+
+.desc-container {
+    padding-top: 12%;
+}
+
+.desc-head {
+    font-size: 3vw;
+}
+
+.desc-text {
+    font-size: 2vw;
+}
+
+.image-prof {
+    max-width: 100%;
+}
