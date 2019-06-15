@@ -15,8 +15,8 @@ class TopNavbar extends React.Component {
                 <Navbar.Collapse className="justify-content-center">
                     <Nav>
                         <Nav.Link href="/" style={linkStyle}>Home</Nav.Link>
-                        <Nav.Link href="/about" style={linkStyle}>About Me</Nav.Link>
-                        <Nav.Link href="/projects" style={linkStyle}>Projects</Nav.Link>
+                        <Nav.Link href="/#/about" style={linkStyle}>About Me</Nav.Link>
+                        <Nav.Link href="/#/projects" style={linkStyle}>Projects</Nav.Link>
                         <Nav.Link href={Pdf} target="_blank" style={linkStyle}>Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

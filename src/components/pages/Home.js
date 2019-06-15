@@ -27,7 +27,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                         <div className="links-container">
-                            <a href="mailto:jonathanlee457@gmail.com">
+                            <a href="mailto:jonathanlee4577@gmail.com">
                                 <i className="fas fa-envelope-square fa-3x"></i>
                             </a>
                             <a href="https://github.com/jonatlee">

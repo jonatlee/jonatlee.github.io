@@ -11,7 +11,7 @@ import './components/pages/styles/projects.css';
 import './components/layout/styles/topnavbar.css';
 
 ReactDOM.render((
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <App />
         </BrowserRouter>
     ), document.getElementById('root'));
