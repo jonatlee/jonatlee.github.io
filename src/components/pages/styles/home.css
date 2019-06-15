@@ -65,6 +65,15 @@
     font-size: 1.6vw;
 }
 
+@media only screen and (max-width: 992px) {
+    .desc-text {
+        font-size: 15px;
+    }
+    .fa-3x {
+        font-size: 2em;
+    }
+}
+
 .image-prof {
     max-height: 100%;
     margin-top: 5%;

@@ -16,6 +16,18 @@
     margin-top: 1.4vw;
 }
 
+@media only screen and (max-width: 992px) {
+    .about-header {
+        font-size: 24px;
+    }
+    .about-text {
+        font-size: 16px;
+    }
+    .px {
+        margin-top: 20px;
+    }
+}
+
 .image-abt {
     margin-left: 7%;
     max-height: 100%;
