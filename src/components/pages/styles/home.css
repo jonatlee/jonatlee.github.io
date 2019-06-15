@@ -1,36 +1,84 @@
+.wrapper {
+    background-color: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 3px 7px #777;
+    max-width: 80%;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .row {
-    margin-top: 80px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .col-left {
-    margin-left: 3%;
+    margin-left: 10%;
 }
 
 .col-right {
-    margin-right: 3%;
+    margin-right: 7%;
+}
+
+.desc-container {
+    padding-top: 20%;
 }
 
 .desc-head {
-    font-size: 48px;
+    font-size: 3.8vw;
     font-weight: bold;
 }
 
 .desc-text {
-    font-size: 24px;
-}
-
-.desc-container {
-    padding-top: 12%;
-}
-
-.desc-head {
-    font-size: 3vw;
-}
-
-.desc-text {
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 
 .image-prof {
+    max-height: 100%;
+    margin-top: 5%;
     max-width: 100%;
+}
+
+.links-container {
+    margin-top: 5%;
+}
+
+i {
+    color: #5277f1;
+}
+
+.fa-linkedin, .fa-github-square {
+    margin-left: 5%;
 }

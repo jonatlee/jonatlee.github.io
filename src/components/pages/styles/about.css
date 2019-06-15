@@ -1,0 +1,23 @@
+.about-header {
+    margin-top: 50px;
+    font-size: 2.4vw;
+}
+
+.hline {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.about-text {
+    font-size: 1.4vw;
+}
+
+.px {
+    margin-top: 1.4vw;
+}
+
+.image-abt {
+    margin-left: 7%;
+    max-height: 100%;
+    max-width: 100%;
+}

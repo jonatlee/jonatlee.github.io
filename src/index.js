@@ -6,6 +6,9 @@ import './index.css';
 import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
 import './components/pages/styles/home.css';
+import './components/pages/styles/about.css';
+import './components/pages/styles/projects.css';
+import './components/layout/styles/topnavbar.css';
 
 ReactDOM.render((
         <BrowserRouter>
