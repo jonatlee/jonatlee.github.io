@@ -2,9 +2,13 @@ import React from 'react';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 
 class Projects extends React.Component {
+    onClick = (projName) => {
+        window.location = `https://github.com/jonatlee/${projName}`;
+    }
+
     render() {
         return (
-            <Container style={{marginBottom: 25}}>
+            <Container style={{marginBottom: 75}}>
                 <div className="project-header">
                     Projects
                 </div> 
@@ -12,7 +16,10 @@ class Projects extends React.Component {
                 <Container className="projects-container" style={{marginBottom: 0}}>
                     <Row style={{paddingBottom: 0}}>
                         <Col>
-                            <Container className="projects-proj"> 
+                            <Container 
+                                className="projects-proj" 
+                                onClick={() => this.onClick("nba-ranksvm")}
+                                >
                                 <div className="projects-proj-name">
                                     NBA RankSVM
                                 </div>
@@ -22,14 +29,16 @@ class Projects extends React.Component {
                                     as points, assists, and rebounds.
                                 </div>
                                 <div className="projects-proj-langs">
-                                    <Button className="projects-proj-langs-btn">
+                                    <Button className="projects-proj-langs-btn" disabled>
                                         Python
                                     </Button> 
                                 </div>
                             </Container>
                         </Col>
                         <Col>
-                            <Container className="projects-proj">
+                            <Container 
+                                className="projects-proj"
+                                onClick={() => this.onClick("flexbox-calculator")}>
                                 <div className="projects-proj-name">
                                     Flexbox Calculator
                                 </div>
@@ -40,13 +49,13 @@ class Projects extends React.Component {
                                 </div>
                                 <br />
                                 <div className="projects-proj-langs">
-                                    <Button className="projects-proj-langs-btn">
+                                    <Button className="projects-proj-langs-btn" disabled>
                                         HTML
                                     </Button> 
-                                    <Button className="projects-proj-langs-btn off">
+                                    <Button className="projects-proj-langs-btn off" disabled>
                                         CSS
                                     </Button> 
-                                    <Button className="projects-proj-langs-btn off">
+                                    <Button className="projects-proj-langs-btn off" disabled>
                                         JavaScript
                                     </Button> 
                                 </div>
@@ -55,7 +64,9 @@ class Projects extends React.Component {
                     </Row>
                     <Row style={{paddingTop: 0, paddingBottom: 20}}>
                         <Col>
-                            <Container className="projects-proj"> 
+                            <Container 
+                                className="projects-proj"
+                                onClick={() => this.onClick("sidestepper-game")}> 
                                 <div className="projects-proj-name">
                                     SideStepper Game
                                 </div>
@@ -65,14 +76,16 @@ class Projects extends React.Component {
                                 </div>
                                 <br />
                                 <div className="projects-proj-langs">
-                                    <Button className="projects-proj-langs-btn">
+                                    <Button className="projects-proj-langs-btn" disabled>
                                         Java
                                     </Button> 
                                 </div>
                             </Container>
                         </Col>
                         <Col>
-                            <Container className="projects-proj">
+                            <Container 
+                                className="projects-proj"
+                                onClick={() => this.onClick("text-rpg-game")}>
                                 <div className="projects-proj-name">
                                     Zyphel
                                 </div>
@@ -82,10 +95,10 @@ class Projects extends React.Component {
                                 <br />
                                 <br />
                                 <div className="projects-proj-langs">
-                                    <Button className="projects-proj-langs-btn">
+                                    <Button className="projects-proj-langs-btn" disabled>
                                         C++
                                     </Button> 
-                                    <Button className="projects-proj-langs-btn off">
+                                    <Button className="projects-proj-langs-btn off" disabled>
                                         Still Being Developed
                                     </Button> 
                                 </div>

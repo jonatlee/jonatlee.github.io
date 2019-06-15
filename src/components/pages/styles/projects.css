@@ -11,6 +11,12 @@
     background-color: #FFFFFF;
     padding: 20px 30px;
     box-shadow: 0 3px 7px #777;
+    transition: transform .2s;
+}
+
+.projects-proj:hover {
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .projects-proj-name {
@@ -26,8 +32,10 @@
     margin-top: 15px;
 }
 
-.projects-proj-langs.btn {
+.projects-proj-langs-btn:disabled, .btn.btn-primary:disabled {
     background-color: #5277F1;
+    border-color: #3277F1;
+    opacity: 1;
 }
 
 .off {
