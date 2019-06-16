@@ -1,2 +1,2 @@
 # Personal Website
-Created using React
+Jonathan Lee's personal website, developed with React.js
