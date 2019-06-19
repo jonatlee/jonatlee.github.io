@@ -35,7 +35,7 @@ class Projects extends React.Component {
                                 </div>
                             </Container>
                         </Col>
-                        <Col>
+                        <Col className="col-compressed">
                             <Container 
                                 className="projects-proj"
                                 onClick={() => this.onClick("flexbox-calculator")}>
@@ -55,14 +55,14 @@ class Projects extends React.Component {
                                     <Button className="projects-proj-langs-btn off" disabled>
                                         CSS
                                     </Button> 
-                                    <Button className="projects-proj-langs-btn off" disabled>
+                                    <Button className="projects-proj-langs-btn off nline fast" disabled>
                                         JavaScript
                                     </Button> 
                                 </div>
                             </Container>
                         </Col>
                     </Row>
-                    <Row style={{paddingTop: 0, paddingBottom: 20}}>
+                    <Row className="row-rem-spacing" style={{paddingTop: 0, paddingBottom: 20}}>
                         <Col>
                             <Container 
                                 className="projects-proj"
@@ -82,7 +82,7 @@ class Projects extends React.Component {
                                 </div>
                             </Container>
                         </Col>
-                        <Col>
+                        <Col className="col-compressed">
                             <Container 
                                 className="projects-proj"
                                 onClick={() => this.onClick("text-rpg-game")}>
@@ -98,9 +98,9 @@ class Projects extends React.Component {
                                     <Button className="projects-proj-langs-btn" disabled>
                                         C++
                                     </Button> 
-                                    <Button className="projects-proj-langs-btn off" disabled>
-                                        Still Being Developed
-                                    </Button> 
+                                    <Button className="projects-proj-langs-btn off nline slow" disabled>
+                                        In Development
+                                    </Button>
                                 </div>
                             </Container>
                         </Col>

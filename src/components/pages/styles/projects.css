@@ -3,12 +3,6 @@
     font-size: 2.4vw;
 }
 
-@media only screen and (max-width: 992px) {
-    .project-header {
-        font-size: 24px;
-    }
-}
-
 .projects-container {
     background-color: #F5F5F5;
 }
@@ -46,4 +40,49 @@
 
 .off {
     margin-left: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+    .project-header {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .projects-proj-langs {
+        flex: 0 0 100%;
+    }
+    .nline {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .off {
+        margin-left: 15px;
+        margin-top: 0;
+    }
+    .col-compressed {
+        margin-top: 20px;
+    }
+    .row-rem-spacing {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 368px) {
+    .fast {
+        margin-left: 0;
+        margin-top: 15px;  
+        width: 120px;  
+    }
+}
+
+@media only screen and (max-width: 328px) {
+    .slow {
+        margin-left: 0;
+        margin-top: 15px;  
+        width: 160px;   
+    }
 }

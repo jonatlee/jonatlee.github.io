@@ -65,15 +65,6 @@
     font-size: 1.6vw;
 }
 
-@media only screen and (max-width: 992px) {
-    .desc-text {
-        font-size: 15px;
-    }
-    .fa-3x {
-        font-size: 2em;
-    }
-}
-
 .image-prof {
     max-height: 100%;
     margin-top: 5%;
@@ -90,4 +81,55 @@ i {
 
 .fa-linkedin, .fa-github-square {
     margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .desc-head {
+        font-size: 18px
+    }
+    .desc-text {
+        font-size: 14px;
+    }
+    .fa-3x {
+        font-size: 2em;
+    }
+    .image-prof {
+        margin-top: 12%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .desc-head {
+        font-size: 16px
+    }
+    .desc-text {
+        font-size: 12px;
+    }
+    .fa-3x {
+        font-size: 1.8em;
+    }
+    .wrapper {
+        width: 70%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .image-prof {
+        margin-top: 0;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .col-left {
+        margin-left: 0;
+    }
+    .col-right {
+        max-width: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .desc-container {
+        padding-top: 5%;
+    }
 }

@@ -16,6 +16,12 @@
     margin-top: 1.4vw;
 }
 
+.image-abt {
+    margin-left: 7%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
     .about-header {
         font-size: 24px;
@@ -28,8 +34,19 @@
     }
 }
 
-.image-abt {
-    margin-left: 7%;
-    max-height: 100%;
-    max-width: 100%;
+@media only screen and (max-width: 767px) {
+    .image-abt {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .image-abt {
+        width: 0;
+    }
+    .abt-left-col {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
 }

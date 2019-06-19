@@ -10,7 +10,7 @@ class TopNavbar extends React.Component {
         }
 
         return ( 
-            <Navbar className="nav-top" expand="lg">
+            <Navbar className="nav-top" expand="md">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="justify-content-center">
                     <Nav>

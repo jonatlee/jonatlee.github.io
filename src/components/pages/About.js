@@ -10,7 +10,7 @@ class About extends React.Component {
                 </div> 
                 <hr className="hline" />
                 <Row style={{marginTop: "0"}}>
-                    <Col xs={7}>
+                    <Col className="abt-left-col" xs={7}>
                         <div className="about-text p1"> 
                             Hey, I'm Jonathan Lee, a rising third-year engineering 
                             student studying computer science
@@ -27,11 +27,11 @@ class About extends React.Component {
                         </div>
                     </Col>
                     <Col>
-                    <Image
-                            className="image-abt"
-                            src={require("../../assets/images/about.jpg")}
-                            roundedCircle
-                            />
+                        <Image
+                                className="image-abt"
+                                src={require("../../assets/images/about.jpg")}
+                                roundedCircle
+                                />
                     </Col> 
                 </Row>
             </Container> 
