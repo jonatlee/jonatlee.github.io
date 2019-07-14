@@ -19,10 +19,11 @@ class About extends React.Component {
                             on the DevOps team at Visa. 
                         </div> 
                         <div className="about-text px">
-                            I am interested in web development, algorithms, machine learning,
-                            and am open to learning about other topics in computer
-                            science as well. Outside of work, I am a classically trained clarinetist, 
-                            proficient binge-watcher, video game enthusiast, 
+                            I am currently interested in pursuing a career involving web/app development 
+                            and/or machine learning.
+                            Aside from these topics, I am open to learning about computer science 
+                            specializations. Outside of work, I am a classically trained clarinetist, 
+                            veteran binge-watcher, video game enthusiast, 
                             and superfan of the Philadelphia 76ers basketball team. 
                         </div>
                     </Col>

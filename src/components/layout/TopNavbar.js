@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
-import Pdf from '../../assets/pdfs/resume.pdf';
+import Pdf from '../../assets/pdfs/resume-online.pdf';
 class TopNavbar extends React.Component {
     render() {
         const linkStyle = {
