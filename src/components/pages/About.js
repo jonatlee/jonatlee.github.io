@@ -21,8 +21,8 @@ class About extends React.Component {
                         <div className="about-text px">
                             I am currently interested in pursuing a career involving web/app development 
                             and/or machine learning.
-                            Aside from these topics, I am open to learning about computer science 
-                            specializations. Outside of work, I am a classically trained clarinetist, 
+                            Aside from these topics, I am open to learning about other computer science 
+                            specializations. Outside of work, I am an amateur clarinetist, 
                             veteran binge-watcher, video game enthusiast, 
                             and superfan of the Philadelphia 76ers basketball team. 
                         </div>
