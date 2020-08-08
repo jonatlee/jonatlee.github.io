@@ -15,8 +15,8 @@ class About extends React.Component {
                             Hey, I'm Jonathan Lee, a rising third-year engineering 
                             student studying computer science
                             at the University of Pennsylvania.
-                            Currently, I am working as a Software Engineering Intern 
-                            on the DevOps team at Visa. 
+                            Recently, I was a SWE intern at MongoDB, working on the
+                            Cloud Developer Productivity team. 
                         </div> 
                         <div className="about-text px">
                             I am currently interested in pursuing a career involving web/app development 
@@ -29,10 +29,10 @@ class About extends React.Component {
                     </Col>
                     <Col>
                         <Image
-                                className="image-abt"
-                                src={require("../../assets/images/about.jpg")}
-                                roundedCircle
-                                />
+                            className="image-abt"
+                            src={require("../../assets/images/about.jpg")}
+                            roundedCircle
+                            />
                     </Col> 
                 </Row>
             </Container> 

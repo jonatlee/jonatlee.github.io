@@ -23,7 +23,7 @@ class Home extends React.Component {
                                 Hi, I'm Jonathan Lee.
                             </div>
                             <div className="desc-text">
-                                SWE Intern @ Visa | Rising Junior @ UPenn
+                                Rising senior @ UPenn studying CS
                             </div>
                         </div>
                         <div className="links-container">
