@@ -12,8 +12,8 @@ class About extends React.Component {
                 <Row style={{marginTop: "0"}}>
                     <Col className="abt-left-col" xs={7}>
                         <div className="about-text p1"> 
-                            Hey, I'm Jonathan Lee, a rising third-year engineering 
-                            student studying computer science
+                            Hey, I'm Jonathan Lee, a rising senior in 
+                            engineering studying computer science
                             at the University of Pennsylvania.
                             Recently, I was a SWE intern at MongoDB, working on the
                             Cloud Developer Productivity team. 
