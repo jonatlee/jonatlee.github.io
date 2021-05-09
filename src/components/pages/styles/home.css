@@ -77,11 +77,19 @@
     margin-top: 5%;
 }
 
-i {
+.email {
     color: #5277f1;
 }
 
-.fa-linkedin, .fa-github-square {
+.github {
+    color: #211F1F;
+}
+
+.linkedin {
+    color: #0e76a8
+}
+
+.github-home {
     margin-left: 5%;
 }
 

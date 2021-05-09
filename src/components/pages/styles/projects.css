@@ -1,88 +1,46 @@
-.project-header {
-    margin-top: 50px;
+.projects-header {
+    margin-top: 5vh;
     font-size: 2.4vw;
 }
 
 .projects-container {
-    background-color: #F5F5F5;
-}
-
-.projects-proj {
     background-color: #FFFFFF;
-    padding: 20px 30px;
     box-shadow: 0 3px 7px #777;
-    transition: transform .2s;
+    max-width: 50vw;
+    border-radius: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    margin-top: 5vh;
 }
 
-.projects-proj:hover {
-    transform: scale(1.03);
-    cursor: pointer;
+.project-overview {
+    margin-top: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
 }
 
-.projects-proj-name {
-    font-size: 20px;
+.project-title {
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
-.projects-proj-desc {
-    margin-top: 10px;
+.project-year {
+    font-size: 1.2vw;
 }
 
-.projects-proj-langs {
-    margin-top: 15px;
+.project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.projects-proj-langs-btn:disabled, .btn.btn-primary:disabled {
-    background-color: #5277F1;
+.project-description {
+    font-size: 1.0vw;
+}
+
+.project-button {
+    background-color: #5277f1;
     border-color: #3277F1;
-    opacity: 1;
-}
-
-.off {
-    margin-left: 15px;
-}
-
-@media only screen and (max-width: 992px) {
-    .project-header {
-        font-size: 24px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .projects-proj-langs {
-        flex: 0 0 100%;
-    }
-    .nline {
-        margin-left: 0;
-        margin-top: 15px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .off {
-        margin-left: 15px;
-        margin-top: 0;
-    }
-    .col-compressed {
-        margin-top: 20px;
-    }
-    .row-rem-spacing {
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (max-width: 368px) {
-    .fast {
-        margin-left: 0;
-        margin-top: 15px;  
-        width: 120px;  
-    }
-}
-
-@media only screen and (max-width: 328px) {
-    .slow {
-        margin-left: 0;
-        margin-top: 15px;  
-        width: 160px;   
-    }
 }
