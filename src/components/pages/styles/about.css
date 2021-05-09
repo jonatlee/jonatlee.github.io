@@ -1,3 +1,15 @@
+.about-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 7px #777;
+    max-width: 50vw;
+    border-radius: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    margin-top: 5vh;
+}
+
 .about-header {
     margin-top: 50px;
     font-size: 2.4vw;
@@ -9,15 +21,16 @@
 }
 
 .about-text {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .px {
-    margin-top: 1.4vw;
+    margin-top: 1.2vw;
 }
 
 .image-abt {
-    margin-left: 7%;
+    margin-top: 4vh;
+    margin-left: 2vw;
     max-height: 100%;
     max-width: 100%;
 }

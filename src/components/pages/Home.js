@@ -13,6 +13,7 @@ class Home extends React.Component {
                     <Col className="col-left">
                         <Image
                             className="image-prof"
+                            bsPrefix="border"
                             src={require("../../assets/images/stock.jpg")}
                             roundedCircle
                             />
@@ -23,17 +24,17 @@ class Home extends React.Component {
                                 Hi, I'm Jonathan Lee.
                             </div>
                             <div className="desc-text">
-                                Rising senior @ UPenn studying CS
+                                Senior @ UPenn studying CS
                             </div>
                         </div>
                         <div className="links-container">
                             <a href="mailto:jonathanlee4577@gmail.com">
                                 <i className="fas fa-envelope-square fa-3x"></i>
                             </a>
-                            <a href="https://github.com/jonatlee">
+                            <a href="https://github.com/jonatlee" target="_blank">
                                 <i className="fab fa-github-square fa-3x"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/jonathan-lee-807ba8159">
+                            <a href="https://www.linkedin.com/in/jonathan-lee-807ba8159" target="_blank">
                                 <i className="fab fa-linkedin fa-3x"></i>
                             </a>
                         </div> 
