@@ -44,10 +44,10 @@ class Projects extends React.Component {
                                 Gmail and Dropbox application clones,
                                 load-balanced front end servers,
                                 and a distributed key-value store with a master node.
-                                Implemented the functionality, fault tolerance, 
-                                primary-backup replication,
-                                and logging / recovery of the back end servers, as well
-                                as the master node logic."
+                                Implemented the back end API, as well as
+                                primary-backup replication, logging,
+                                and recovery. Additionally, assisted in developing the
+                                master node API and communication protocol."
                     />
                 <hr />
                 <ProjectOverview
