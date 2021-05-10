@@ -11,12 +11,104 @@ class Projects extends React.Component {
                 </div> 
                 <hr className="hline" />
                 <ProjectOverview
+                    title="Lyricio"
+                    year="2021"
+                    description="A web application for exploring the relationships
+                                between Spotify tracks and lyrics of those songs.
+                                Built with a React front end, Node/Express back end,
+                                and AWS RDS Oracle Database. Hosted the application on
+                                an AWS EC2 instance."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="ClassicaConnect"
+                    year="2021"
+                    description="Social network for classical musicians built using Ruby-on-Rails,
+                                 Spotify API, and AWS S3."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="PLANNtER"
+                    year="2020-2021"
+                    description="Web application for planning and visualizing 
+                                gardens, connecting with other users on the platform,
+                                and organizing miscellaneous gardening tasks. Developed
+                                using the MERN stack and AWS 
+                                as a senior capstone group project."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="PennCloud"
+                    year="2020"
+                    description="Cloud service developed in C/C++, featuring
+                                Gmail and Dropbox application clones,
+                                load-balanced front end servers,
+                                and a distributed key-value store with a master node.
+                                Implemented the functionality, fault tolerance, 
+                                primary-backup replication,
+                                and logging / recovery of the back end servers, as well
+                                as the master node logic."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="Analysis of Car Accidents in the US"
+                    year="2020"
+                    description="Using Python, performed EDA on a Kaggle dataset
+                                consisting of car accident data in the US, 
+                                identifying trends between severity and environmental factors
+                                such as precipitation, humidity, and the time
+                                of day. Built a classifier to predict the 
+                                severity of an accident given such input factors."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="CHIP-8 Emulator"
+                    year="2020"
+                    description="Built a CHIP-8 emulator using C++ alongside a colleague. 
+                                Implemented the processor logic."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="PennOS"
+                    year="2019"
+                    description="Unix-based operating system built in C,
+                                featuring a kernel scheduler, FAT file system,
+                                and a user-facing shell. Led development
+                                of the scheduler, and assisted in implementing the
+                                shell functions."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="SplitMe"
+                    year="2019"
+                    description="Led front end development (React-Native/Redux) 
+                                for a group payment mobile application developed among peers."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="TutorConnect"
+                    year="2019"
+                    description="Developed a social network for matching tutors and tutees
+                                for Android using XML, Java, and MongoDB. 
+                                Additionally, implemented an admin webpage using
+                                embedded JavaScript and Node Express."
+                    />
+                <hr />
+                <ProjectOverview
+                    title="NBA Playoff Predictor"
+                    year="2019"
+                    description="Created a command-line application using Java
+                                and TwitterAPI that predicts
+                                NBA playoff match outcomes based on the frequency
+                                of Tweets the day prior."
+                    />
+                <hr />
+                <ProjectOverview
                     title="NBA RankSVM"
                     year="2018"
                     description="Used the sklearn Python library to evaluate the effectiveness
                             of using an SVM-based model in predicting NBA team standings based 
-                            on raw team statistics. Built as the final project for the class,
-                            CIS519: Applied Machine Learning, at the University of Pennsylvania."
+                            on raw team statistics."
                     github="https://github.com/jonatlee/nba-ranksvm"
                     />
                 <hr />
@@ -24,9 +116,15 @@ class Projects extends React.Component {
                     title="Flexbox Calculator"
                     year="2018"
                     description="Created a basic scientific calculator
-                            using CSS flexbox. Supports up to
+                            using HTML, CSS flexbox, and JavaScript. Supports up to
                             10 digits of precision."
                     github="https://github.com/jonatlee/flexbox-calculator"
+                    />
+                <hr />
+                <ProjectOverview
+                    title="SideStepper Game"
+                    year="2017"
+                    description="Built a dodging-based platformer using Java Swing."
                     />
                 <hr />
                 {/* <Container className="projects-container" style={{marginBottom: 0}}>
