@@ -4,7 +4,7 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 class About extends React.Component {
     render() {
         return (
-            <Container className="about-container">
+            <Container className="about-container" style={{marginBottom: 75}}>
                 <div className="about-header">
                     About Me 
                 </div> 
