@@ -9,7 +9,7 @@ class About extends React.Component {
                     About Me 
                 </div> 
                 <hr className="hline" />
-                <Row style={{marginTop: "0"}}>
+                <Row style={{marginTop: 0, paddingBottom: 0}}>
                     <Col className="abt-left-col" xs={8}>
                         <div className="about-text p1"> 
                             Hey, I'm Jonathan Lee, a senior in 
@@ -29,7 +29,7 @@ class About extends React.Component {
                             and superfan of the Philadelphia 76ers basketball team. 
                         </div>
                     </Col>
-                    <Col>
+                    <Col className="abt-right-col" xs={4}>
                         <Image
                             className="image-abt"
                             src={require("../../assets/images/about.jpg")}

@@ -3,8 +3,7 @@
     padding-left: 0px;
     padding-right: 0px;
     box-shadow: 0 3px 7px #777;
-    max-height: 90vh;
-    max-width: 50vw;
+    width: 50vw;
     border-radius: 1vw;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -94,6 +93,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 80vw;
+    }
     .desc-head {
         font-size: 18px
     }
@@ -121,7 +123,7 @@
         font-size: 1.8em;
     }
     .wrapper {
-        width: 70%;
+        width: 70vw;
     }
     .row {
         flex-direction: column;
@@ -143,5 +145,20 @@
     }
     .desc-container {
         padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .wrapper {
+        border-radius: 2vw;
+    }
+    .desc-head {
+        font-size: 11px
+    }
+    .desc-text {
+        font-size: 9px;
+    }
+    .fa-3x {
+        font-size: 1.2em;
     }
 }

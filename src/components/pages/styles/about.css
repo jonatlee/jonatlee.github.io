@@ -1,18 +1,17 @@
 .about-container {
     background-color: #FFFFFF;
     box-shadow: 0 3px 7px #777;
-    max-width: 50vw;
+    width: 50vw;
     border-radius: 1vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     margin-top: 5vh;
 }
 
 .about-header {
-    margin-top: 5vh;
-    font-size: 2.4vw;
+    font-size: 28px;
 }
 
 .hline {
@@ -21,23 +20,31 @@
 }
 
 .about-text {
-    font-size: 1.2vw;
+    font-size: 20px;
 }
 
 .px {
     margin-top: 1.2vw;
 }
 
+.abt-right-col {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .image-abt {
-    margin-top: 4vh;
-    margin-left: 2vw;
+    margin-top: 10px;
     max-height: 100%;
     max-width: 100%;
 }
 
 @media only screen and (max-width: 992px) {
+    .about-container {
+        border-radius: 2vw;
+        width: 70vw;
+    }
     .about-header {
-        font-size: 24px;
+        font-size: 20px;
     }
     .about-text {
         font-size: 16px;
@@ -54,6 +61,20 @@
 }
 
 @media only screen and (max-width: 575px) {
+    .about-container {
+        width: 80vw;
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .about-header {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .about-text {
+        font-size: 14px;
+    }
     .image-abt {
         width: 0;
     }
@@ -61,5 +82,14 @@
         width: 100%;
         max-width: 100%;
         flex: 0 0 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .about-header {
+        font-size: 12px;
+    }
+    .about-text {
+        font-size: 10px;
     }
 }
